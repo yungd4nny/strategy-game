@@ -1,0 +1,12 @@
+div {
+    outline: 3px solid black;
+}
+h3 {
+  padding-left: 3px;
+}
+a {
+  display: flex
+}
+p {
+  justify-content: space-around;
+}

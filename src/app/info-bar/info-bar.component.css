@@ -1,0 +1,26 @@
+a {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  padding-left: 8px;
+  justify-content: left;
+  width: 70%;
+  padding-right: 2%;
+}
+.resources {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  padding-right: 1%
+}
+.resourceItem {
+  justify-content: center;
+}
+.labels {
+  padding-right: 5px;
+  font-weight: bold;
+}
+.values {
+  font-weight: normal;
+}

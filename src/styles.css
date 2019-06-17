@@ -1,0 +1,45 @@
+/* Global Styles */
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: black;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Hyperlink */
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*Info Bar*/
+app-info-bar {
+  height: 68px;
+  background-color: #974b0b;
+  display: flex;
+  align-items: center;
+
+}
+
+
+/*Building List*/
+app-building-list {
+  padding: 3px;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  background-color: #f19141;
+
+}

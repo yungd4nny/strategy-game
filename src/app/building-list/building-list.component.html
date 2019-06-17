@@ -1,0 +1,9 @@
+<div *ngFor="let building of buildings; let i = index" >
+
+  <h3>
+    <a [routerLink]="['/buildings', this.building.buildingId]">
+      {{ this.building.name }}
+      </a>
+  </h3>
+
+</div>
